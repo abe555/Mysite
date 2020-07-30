@@ -90,18 +90,40 @@ ul {
 	color: #000000;
 }
 
-.boxes {
+.portfolio-boxes {
 	width: 920px;
 	height: 510px;
-	background-color: orange;
 	margin: 0 auto;
 }
 
-.box1 {
+.portfolio-box {
 	width: 300px;
 	height: 250px;
 	display: inline-block;
 	float: left;
-	background-color: yellow;
+	background-position: center;
+	background-size: cover;
 }
 
+.portfolio-box:nth-child(1) {
+	background-image: url(img/sketch.jpg);
+	margin-bottom: 10px;
+}
+.portfolio-box:nth-child(2) {
+	background-image: url(img/websuku.png);
+	margin: 0 10px 10px 10px;
+}
+.portfolio-box:nth-child(3) {
+	background-image: url(img/write.jpg);
+	margin-bottom: 10px;
+}
+.portfolio-box:nth-child(4) {
+	background-image: url(img/webcamp.png);
+}
+.portfolio-box:nth-child(5) {
+	background-image: url(img/talk.jpg);
+	margin: 0 10px;
+}
+.portfolio-box:nth-child(6) {
+	background-image: url(img/webcamp-mother.png);
+}
