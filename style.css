@@ -127,3 +127,22 @@ ul {
 .portfolio-box:nth-child(6) {
 	background-image: url(img/webcamp-mother.png);
 }
+.feature {
+	width: 980px;
+	margin: 90px auto;
+	text-align: center;
+}
+.feature-title {
+	font-size: 32px;
+	color: #000000;
+}
+.feature-border {
+	width: 70px;
+	border-bottom: 3px solid #EC715F;
+	margin: 8px auto 0 auto;
+}
+.feature-text {
+	margin: 30px auto;
+	font-size: 16px;
+	color: #000000;
+}
