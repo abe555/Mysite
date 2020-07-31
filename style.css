@@ -146,3 +146,27 @@ ul {
 	font-size: 16px;
 	color: #000000;
 }
+.social {
+	padding: 90px auto;
+}
+.social-box {
+	width: 320px;
+	height: auto;
+	float: left;
+	background-size: orange;
+}
+.social-box:nth-child(2) {
+	margin: 0 10px;
+}
+.fas {
+	font-size: 60px;
+}
+.social-box-title {
+	margin: 10px auto;
+	font-size: 20px;
+	color: #000000;
+}
+.social-box-text {
+	font-size: 16px;
+	color: #000000;
+}
