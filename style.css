@@ -63,6 +63,12 @@ ul {
 	color: #FAFAFA;
 }
 
+.border {
+	width: 70px;
+	border-bottom: 3px solid #EC715F;
+	margin: 8px auto 0 auto;
+}
+
 .portfolio {
 	width: 100%;
 	height: 1000px;
@@ -74,11 +80,6 @@ ul {
 .portfolio-title {
 	font-size: 32px;
 	color: #000000;
-}
-.portfolio-border {
-	width: 70px;
-	border-bottom: 3px solid #EC715F;
-	margin: 8px auto 0 auto;
 }
 
 .portfolio-text {
@@ -136,11 +137,7 @@ ul {
 	font-size: 32px;
 	color: #000000;
 }
-.feature-border {
-	width: 70px;
-	border-bottom: 3px solid #EC715F;
-	margin: 8px auto 0 auto;
-}
+
 .feature-text {
 	margin: 30px auto;
 	font-size: 16px;
@@ -169,4 +166,10 @@ ul {
 .social-box-text {
 	font-size: 16px;
 	color: #000000;
+}
+.profile {
+	width: 100%;
+	padding: 90px auto;
+	background-color: #ECEFF1;
+	text-align: center;
 }
