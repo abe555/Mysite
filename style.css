@@ -63,6 +63,12 @@ ul {
 	color: #FAFAFA;
 }
 
+.border {
+	width: 70px;
+	border-bottom: 3px solid #EC715F;
+	margin: 8px auto 0 auto;
+}
+/* portfolio */
 .portfolio {
 	width: 100%;
 	height: 1000px;
@@ -74,11 +80,6 @@ ul {
 .portfolio-title {
 	font-size: 32px;
 	color: #000000;
-}
-.portfolio-border {
-	width: 70px;
-	border-bottom: 3px solid #EC715F;
-	margin: 8px auto 0 auto;
 }
 
 .portfolio-text {
@@ -127,6 +128,7 @@ ul {
 .portfolio-box:nth-child(6) {
 	background-image: url(img/webcamp-mother.png);
 }
+/* feature */
 .feature {
 	width: 980px;
 	margin: 90px auto;
@@ -136,16 +138,13 @@ ul {
 	font-size: 32px;
 	color: #000000;
 }
-.feature-border {
-	width: 70px;
-	border-bottom: 3px solid #EC715F;
-	margin: 8px auto 0 auto;
-}
+
 .feature-text {
 	margin: 30px auto;
 	font-size: 16px;
 	color: #000000;
 }
+ /* social */
 .social {
 	padding: 90px auto;
 }
@@ -170,3 +169,30 @@ ul {
 	font-size: 16px;
 	color: #000000;
 }
+/* profile */
+.profile {
+	padding: 90px;
+	width: 100%;
+	padding: 90px auto;
+	background-color: #ECEFF1;
+	height: 500px;
+}
+.profile_content {
+
+}
+
+.prfile_box {
+  margin-top: 30px;
+}
+.profile_image {
+  background-image: url(img/my-icon.jpg);
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.prfile_name {
+  float: left;
+  text-align: left;
+}
+
+/**/
