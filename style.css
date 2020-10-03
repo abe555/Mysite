@@ -227,7 +227,7 @@ ul {
 
 /* contact */
 .contact {
-	padding: 90px;
+	padding: 90px 0 90px 0;
 }
 .contact__content {
 }
@@ -236,15 +236,39 @@ ul {
 	margin: 0 auto;
 	text-align: center;
 }
+.ct-text__ttl {
+	font-size: 20px;
+}
+.ct-text__text {
+	margin: 30px 0;
+}
 .contact-bottom {
 	margin: 0 auto;
+	width: 800px;
 }
 .address {
 	margin: 0 auto;
 	float: left;
+	width: 400px;
+	text-align: center;
+}
+.address__ttl {
+	font-size: 20px;
+	margin-bottom: 5px;
 }
 .sns-itn {
 	margin: 0 auto;
 	float: left;
+	width: 400px;
+	text-align: center;
 }
-
+.sns-itn__ttl {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.sns-itn__itns > i {
+	font-size: 50px;
+}
+.sns-itn__itns > i:nth-child(2) {
+	margin: 0 20px;
+}
